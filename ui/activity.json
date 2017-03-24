@@ -1,0 +1,29 @@
+{
+  "name": "tibco-throttle",
+  "version": "0.0.1",
+  "title": "Endpoint Throttle",
+  "description": "Simple Endpoint Throttle Activity",
+  "homepage": "https://github.com/TIBCOSoftware/flogo-contrib/tree/master/activity/throttle",
+  "inputs":[
+    {
+      "name": "endPoint",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "limitPerMinute",
+      "type": "integer",
+      "required": true
+    },
+    {
+      "name": "disable",
+      "type": "boolean"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "throttled",
+      "type": "boolean"
+    }
+  ]
+}
