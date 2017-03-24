@@ -1,6 +1,5 @@
 {
   "name": "tibco-throttle",
-  "type": "flogo:activity",
   "version": "0.0.1",
   "title": "Endpoint Throttle",
   "description": "Simple Endpoint Throttle Activity",
