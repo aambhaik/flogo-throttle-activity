@@ -45,8 +45,8 @@ Inputs and Outputs:
 | disable       | Flag to disable the throttle policy |
 Note: if disable is set to true, limitPerMinute is ignored
 ## Configuration Examples
-### Increment
-Configure a task to increment a 'messages' counter:
+### Throttle
+Configure a task to throttle traffic to an endpoint:
 
 ```json
 {
